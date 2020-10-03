@@ -22,5 +22,10 @@ public class JNITools {
     //除法
     public static native int div(int a,int b);
 
+    public static native String getData();
+
+    //java层传递字符串，native层对字符串进行加工返回
+    public static native String setData(String value);
+
 
 }
